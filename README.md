@@ -1,8 +1,8 @@
 ##AsyncImages##
 
-This project implements asynchronous image loading on a collection view in Swift.  It implements an extension on UIImageView that allows UIImageViews to load images asynchronously using a one-line call:
+This project provides a streamlined interface for loading remote images into UIImageViews.  The extension implemented allows an image view to be populated from a URL string seamlessly in one line:
 
-    func setImageWithURLString(urlString: NSString)
+    image.setImageWithURLString(imageURLString)
 
 The demo project uses the Instagram API for example content - to run the project you will need to provide an Instagram client id.  This client id needs to be set within ViewController.swift on the following line:
 
