@@ -1,4 +1,4 @@
-**AsyncImages**
+##AsyncImages##
 
 This project implements asynchronous image loading on a collection view in Swift.  It implements an extension on UIImageView that allows UIImageViews to load images asynchronously using a one-line call:
 
